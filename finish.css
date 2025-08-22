@@ -1,0 +1,430 @@
+header{
+    width: 100%;
+    height: 90%;
+  position: absolute;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20230629/pngtree-d-rendered-background-featuring-a-blue-gaming-controller-in-digital-art-image_3702796.jpg");
+    background-position: center;
+    background-size: cover;
+
+    display: block;
+top: 0;
+left: 0;
+}
+.con{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.288);
+    display: block;
+    text-align: center;
+    margin: 0;
+    top: 0;
+left: 0;
+position: absolute;
+
+}
+.con h1{
+    font-family: 'Post No Bills Colombo Extrabold';
+
+  margin-top: 350px;
+  font-size: 170px;
+    color: aliceblue;
+   text-shadow: 5px 5px 5px black;
+}
+.con p{
+    color: aliceblue;
+    margin-top: -170px;
+    font-size: 40px;
+    font-family: 'PT Mono';
+}
+.con button{
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 0.5em;
+    font-family: 'PT Mono';
+    margin-top: -50px;
+}
+span{
+    color: rgb(127, 236, 255);
+}
+body{background-color: black;
+
+}
+
+
+
+.lenta-container{
+    text-align: center;
+  
+    width: 90%;
+   
+    border-radius: 50px;
+
+}
+
+.lenta-image{
+   
+    margin-top: 950px;
+    width: 200%;
+    overflow: hidden;
+   
+}
+.lenta-image div{
+  
+    display: flex;
+    width: 200%;
+    animation-name: image-lenta;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+.lenta-image img{
+   
+    margin: 0 20px;
+    width: 300px;
+    border-radius: 2em;
+}
+@keyframes image-lenta{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+.lenta-container h1{
+    font-family: 'franklin gothic';
+    font-size: 100px;
+}
+main{
+    
+    width: 100%;
+    height: 1000px;
+  
+    
+}
+.about{
+   
+    
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 255, 255, 0);
+}
+.about h1{
+  margin-left: 300px;
+    font-family: 'Post No Bills Colombo Extrabold';
+    color: aliceblue;
+    text-shadow: 0px 0px 34.4px rgba(0, 255, 240, 0.9);
+}
+.about img{
+
+   width: 250px;
+}
+.fi{
+    margin-right: 1300px;
+}
+.se{
+    margin-left: 200px;
+    margin-top: -290px;
+}
+.th{
+    margin-left: 1600px;
+    margin-top: -300px;
+}
+.about p{
+    font-size: 20px;
+    font-family: 'Britannic';
+}
+.games{
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(167, 140, 140, 0.459);
+    margin-left: 100px;
+    display: flex;
+    text-align: left;
+    margin-top: 200px;
+}
+.ltxt{
+  color: aliceblue;
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    
+}
+.rtxt{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+}
+.ltxt h1{
+    text-shadow: 0px 0px 34.4px rgba(0, 255, 240, 0.9);
+    font-family: 'Post No Bills Colombo Extrabold';
+}
+.ltxt p{
+    margin-top: -50px;
+    font-family: 'brush script mt';
+    font-size: 25px;
+    width: 500px;
+}
+.ltxt button{
+  
+    border-radius: 2em;
+ 
+    color: aliceblue;
+    background: #04B700;
+    box-shadow: 0px 0px 22.4px #00FFD1;
+    width: 90px;
+    height: 40px;
+}
+
+.span2{
+    color: rgb(0, 250, 0);
+}
+.slider{
+    margin-bottom: 0;
+    margin-top: 85px;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.slide{
+    
+    width: 700px;
+    height: 500px;
+ 
+}
+.slide img{
+    filter: drop-shadow(0px -1px 39.4px rgba(0, 255, 255, 0.25));
+    width: 700px;
+    height: 500px;   border-radius: 2em;
+width: 100%;
+}
+
+.dot {
+    cursor: pointer;
+    
+    width: 15px;
+    margin-top: -50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.btn_right {
+    right: 0;
+    border-radius: 50%;
+    background-color: #ffffff7d;
+}
+
+/* стиль при наведении на кнопки*/
+.btn_left:hover, .btn_right:hover {
+    background-color: #ffffffd4;
+}
+.btn_right{
+    cursor: pointer;
+   
+   
+    width: 20px;
+    height: 20px;
+ 
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    background-color: #ffffff7d;
+}
+.btn_left{
+    cursor: pointer;
+
+    width: 20px;
+    height: 20px;
+   margin-left: 430px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    background-color: #e7e5e57d;
+}
+
+.burger-menu {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #00ff1a00;
+    color: white;
+}
+
+/* Изменение курсора */
+.burger-icon {
+    cursor: pointer;
+}
+
+/* Три полосы */
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: rgba(156, 211, 224, 0.616);
+    margin: 6px 0;
+}
+
+/* Стиль текстовой панели */
+.menu-panel {
+    height: 170px;
+    padding: 10px;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    width: 10%;
+    text-align: center;
+ border-radius: 20px;
+background: linear-gradient(90deg, #187686 0%, #43c0d6 100%);
+opacity: 0;
+transform: translateY(-20px);
+transition: opacity 0.5s, transform 0.5s;
+}
+.menu-panel.show-menu{
+    opacity: 1;
+transform: translateY(0);
+}
+.menu-panel ul {
+  margin-left: 10px;
+    list-style: none;
+    padding: 0;
+    /* Rectangle 20 */
+width: 95%;
+height: 150px;
+
+}
+
+.menu-panel li {
+    
+    background: linear-gradient(90deg, #55cdeb 0%, #4f91c4 100%);
+
+    height: 30px;
+    width: 90%;
+    border-radius: 0.5em;
+    margin-bottom: 10px;
+}
+
+.menu-panel a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.accordeon{
+  
+background-color: #f5f5f5;
+color: #070000;
+cursor: pointer;
+padding: 20px;
+width: 60%;
+text-align: left;
+border: none;
+outline: none;
+transition: 0.4s;
+border-radius: 1em;
+font-size: 20px;
+
+}
+.accordeon-active, .accordeon:hover{
+    background-color: aliceblue;
+    border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+.accardeon_panel{
+    width: 60%;
+    background-color: aliceblue;
+color: #070000;
+cursor: pointer;
+border-bottom-left-radius: 1em;
+border-bottom-right-radius: 1em;
+margin-left: 348px;
+width: 60%;
+text-align: left;
+border: none;
+outline: none;
+
+
+font-size: 20px;
+
+   
+    
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2 ease-out;
+}
+.accordeon::after{
+    content: "\02795";
+    font-size: 30px;
+    color: azure;
+    float: right;
+    margin-left: 5px;
+}
+.accordeon-active::after{
+    content: "\2796";
+}
+.ans{
+    align-items: center;
+    font-family: 'franklin gothic';
+    background-color: #000000;
+    font-size: 50px;
+    text-align: center;
+    color: #f3f3f3;
+    margin-left: 150px;
+    margin-top: -100px;
+}
+.log{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/627/395/613/blue-controller-dualshock-entertainment-wallpaper-preview.jpg");
+    background-size: cover;
+   margin-top: 100px;
+    margin-left: 100px;
+    width: 100%;
+    height: 400px;
+    background-color: #1b917b;
+    border-radius: 1em;
+}
+.lon{
+    background-color: #525c5a6c;
+    height: 200px;
+    width: 1000px;
+    border-radius: 2em;
+    margin-top: 50px;
+    margin-left: 450px;
+display: block;
+}
+.log h1{
+    font-family: 'Post No Bills Colombo Extrabold';
+padding-top: 50px;
+    font-size: 50px;
+    color: white;
+   
+}
+.log input{
+width: 500px;
+height: 30px;
+margin-top: 50px;
+}
